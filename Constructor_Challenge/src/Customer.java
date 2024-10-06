@@ -8,6 +8,10 @@ public class Customer {
         this.creditLimit = creditLimit;
         this.email = email;
     }
+    public Customer(double creditLimit, String email) {
+        this.creditLimit = creditLimit;
+        this.email = email;
+    }
 
     public double getCreditLimit() {
         return creditLimit;
