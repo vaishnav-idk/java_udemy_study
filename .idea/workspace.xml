@@ -10,9 +10,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nFnDoWFmDUtM7A27JNx6u3zfbB" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -20,8 +23,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vaish/JAVA",
+    "last_opened_file_path": "C:/Users/vaish/JAVA/ArrayListChallenge",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728577574813</updated>
       <workItem from="1728577575871" duration="2295000" />
+      <workItem from="1728634940042" duration="30000" />
     </task>
     <servers />
   </component>

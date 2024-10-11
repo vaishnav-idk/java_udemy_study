@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadb633a-dff0-4bfc-b770-a51cbcfbe43a" name="Changes" comment="" />
+    <list default="true" id="dadb633a-dff0-4bfc-b770-a51cbcfbe43a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayLists/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nFn9BW62DMCM4r5gTkrX24sWiL" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -17,6 +24,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/vaish/JAVA",
     "nodejs_package_manager_path": "npm",
@@ -41,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728577539142</updated>
       <workItem from="1728577540236" duration="34000" />
+      <workItem from="1728634998199" duration="5000" />
     </task>
     <servers />
   </component>
