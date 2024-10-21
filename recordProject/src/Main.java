@@ -2,14 +2,21 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        for( int i =1  ; i<=5 ; i++)
+        {
+            Student s=new Student("S4343"+i,switch (i){
+                case 1 ->"Mary";
+                case 2 -> "Carol";
+                case 3 -> "Bob";
+                case 4 -> "Jack";
+                case 5 -> "John";
+                default -> "anonymous"; //requiement for a numeric switch expression
+            },"05/12/2021","Java");
+            System.out.println(s);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
         }
+        StudentRecord obj=new StudentRecord("S2323","Vaishnav","05/12/2111","JAva");
+        System.out.println(obj);
+        System.out.println(obj.dateofbirth());
     }
 }
