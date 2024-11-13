@@ -4,7 +4,17 @@ public class Account {
     private String customerName;
     private String customerEmail;
     private String customerPhone;
-
+    public Account {
+        System.out.println("Account Constructor empty created");
+    }
+    public Account(double balance, int number, String customerName, String customerEmail, String customerPhone) {
+        this.balance = balance;
+        this.number = number;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhone = customerPhone;
+        System.out.println("account constructor created  "+this.balance+this.number+this.customerName+this.customerEmail+this.customerPhone);
+    }
 
     public void depsoitFunds(double depositAmount)
     {
