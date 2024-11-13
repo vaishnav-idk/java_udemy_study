@@ -6,6 +6,27 @@ public class Account {
     private String customerPhone;
 
 
+    public void depsoitFunds(double depositAmount)
+    {
+        this.balance = this.balance + depositAmount;
+        System.out.println("Deposit amount : " + depositAmount);
+        System.out.println("New Balance : " + this.balance);
+    }
+
+    public void withdrawFunds (double withdrawAmount)
+    {
+        if( this.balance - withdrawAmount<0){
+            System.out.println("Insufficient Funds");
+        }
+        else{
+            this.balance = this.balance - withdrawAmount;
+            System.out.println("Withdraw amount : " + withdrawAmount);
+            System.out.println("New Balance : " + this.balance);
+        }
+    }
+
+
+
     public double getBalance() {
         return balance;
     }
