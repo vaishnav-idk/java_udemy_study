@@ -6,7 +6,7 @@ public class Main {
         account1.withdrawFunds(100.0);
         account1.depsoitFunds(100.0);
         account1.withdrawFunds(55.5);
-
+    account1.setCustomerEmail("hello@gmail.com");
     }
 
 }
