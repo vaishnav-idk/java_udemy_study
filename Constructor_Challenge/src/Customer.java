@@ -3,6 +3,12 @@ public class Customer {
     private double creditLimit;
     private  String email;
 
+    public Customer(String name, double creditLimit, String email) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+        this.email = email;
+    }
+
     public double getCreditLimit() {
         return creditLimit;
     }
