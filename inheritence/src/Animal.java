@@ -8,6 +8,7 @@ public class Animal {
         this.weight = weight;
     }
 
+
     public String toString(){
         return "Animal :"+" "+type + " " + size + " " + weight + " " + type;
     }
