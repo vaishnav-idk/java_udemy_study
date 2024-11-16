@@ -25,9 +25,12 @@ public class Animal {
 
     public void move(String speed) {
         System.out.println(type + " moves " + speed);
+
     }
 
     public void makeNoise() {
         System.out.println(type + " makes some kind of noise");
     }
 }
+
+
