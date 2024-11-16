@@ -6,6 +6,10 @@ public class Main {
         System.out.println(tim);
         System.out.println("Age = "+tim.getAge());
         System.out.println("Pay ="+tim.collectPay());
+    Employee jim=new Employee("Jim","11/11/1985","01/01/2020");
+        System.out.println(jim);
+        System.out.println("Age = "+jim.getAge());
+        System.out.println("Pay ="+jim.collectPay());
 
     }
 }
