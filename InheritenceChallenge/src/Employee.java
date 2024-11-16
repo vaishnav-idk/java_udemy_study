@@ -3,7 +3,7 @@ public class Employee extends  Worker{
     private String hireDate;
     private static int employeeCounter=1;
     //static variable
-    public Employee(String name, String birthDate, String hireDate, long employeeID) {
+    public Employee(String name, String birthDate, String hireDate) {
         super(name, birthDate);
         this.hireDate = hireDate;
         this.employeeID =Employee.employeeCounter++;
