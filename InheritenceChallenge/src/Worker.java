@@ -5,7 +5,7 @@ public class Worker {
     //endDate will get set by a method either
     //in this class or a subclass so its protected rather than private
 
-
+    public Worker(){}
     public Worker(String name, String birthDate) {
         this.name = name;
         this.birthDate = birthDate;
