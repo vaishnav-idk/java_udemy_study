@@ -1,28 +1,33 @@
 public class Animal {
+
     private String type;
     private String size;
-    private String weight;
-    public Animal(String type, String size, String weight) {
-        this.type = type;
-        this.size = size;
-        this.weight = weight;
-    }
+    private double weight;
+
     public Animal() {
 
     }
 
-    public String toString(){
-        return "Animal :"+" "+type + " " + size + " " + weight + " " + type;
-    }
-    public void move(String speed)
-    {
-        System.out.println("This animal moves at "+speed);
-    }
-    public void makeNoise()
-    {
-        System.out.println("This animal makes noise");
+    public Animal(String type, String size, double weight) {
+        this.type = type;
+        this.size = size;
+        this.weight = weight;
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "type='" + type + '\'' +
+                ", size='" + size + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
+
+    public void move(String speed) {
+        System.out.println(type + " moves " + speed);
+    }
+
+    public void makeNoise() {
+        System.out.println(type + " makes some kind of noise");
+    }
 }
-
-
