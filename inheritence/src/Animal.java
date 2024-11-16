@@ -7,7 +7,9 @@ public class Animal {
         this.size = size;
         this.weight = weight;
     }
+    public Animal() {
 
+    }
 
     public String toString(){
         return "Animal :"+" "+type + " " + size + " " + weight + " " + type;
