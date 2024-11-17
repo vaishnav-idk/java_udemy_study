@@ -15,7 +15,7 @@ public class Bedroom {
         this.wall1 = wall1;
     }
     public Lamp getLamp() {
-        private Lamp l=new Lamp();
+         Lamp l=new Lamp();
         return l;
 
     }
