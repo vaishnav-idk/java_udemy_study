@@ -3,8 +3,9 @@ public class Bedroom {
     private Wall wall1, wall2, wall3, wall4;
     private Celling celling;
     private Bed bed;
+    private Lamp lamp;
 
-    public Bedroom(String name, Bed bed, Celling celling, Wall wall4, Wall wall2, Wall wall3, Wall wall1) {
+    public Bedroom(String name, Bed bed, Celling celling, Wall wall4, Wall wall2, Wall wall3, Wall wall1, Lamp lamp) {
 
         this.name = name;
         this.bed = bed;
@@ -13,10 +14,10 @@ public class Bedroom {
         this.wall2 = wall2;
         this.wall3 = wall3;
         this.wall1 = wall1;
+        this.lamp = lamp;
     }
     public Lamp getLamp() {
-         Lamp l=new Lamp();
-        return l;
+         return this.lamp;
 
     }
 
