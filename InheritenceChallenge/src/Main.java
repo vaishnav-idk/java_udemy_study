@@ -10,6 +10,8 @@ public class Main {
         System.out.println(jim);
         System.out.println("Age = "+jim.getAge());
         System.out.println("Pay ="+jim.collectPay());
+        SalariedEmployee joe=new SalariedEmployee("Joe","12/06/1985","21/02/2020",12000.05);
+        System.out.println("Paycheck ="+joe.annualSalary);
 
     }
 }
