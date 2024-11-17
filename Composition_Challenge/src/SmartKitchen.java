@@ -19,6 +19,18 @@ private DishWasher dishWasher;
     public DishWasher getDishWasher() {
         return dishWasher;
     }
+    public void setKitchenState(boolean coffeeFlag,boolean refrigeratorFlag,boolean dishWasherFlag) {
+       brewMaster.setHasWorkToDo(coffeeFlag);
+       iceBox.setHasWorkToDo(refrigeratorFlag);
+       dishWasher.setHasWorkToDo(dishWasherFlag);
+    }
+
+    public void doKitchenWork(){
+        brewMaster.brewCoffee();
+        iceBox.orderFood();
+        dishWasher.doDishs();
+    }
+
 }
 //only one public class in a source file
 class CoffeeMaker {
