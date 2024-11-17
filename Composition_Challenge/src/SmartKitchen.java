@@ -2,7 +2,23 @@ public class SmartKitchen {
 private CoffeeMaker brewMaster;
 private Refrigerator iceBox;
 private DishWasher dishWasher;
+    public SmartKitchen() {
+        brewMaster = new CoffeeMaker();
+        iceBox = new Refrigerator();
+        dishWasher = new DishWasher();
+    }
 
+    public CoffeeMaker getBrewMaster() {
+        return brewMaster;
+    }
+
+    public Refrigerator getIceBox() {
+        return iceBox;
+    }
+
+    public DishWasher getDishWasher() {
+        return dishWasher;
+    }
 }
 //only one public class in a source file
 class CoffeeMaker {
@@ -17,6 +33,7 @@ class CoffeeMaker {
             System.out.println("Brewing Coffee");
         }
     }
+}
 
     class Refrigerator {
         private boolean hasWorkToDo;
@@ -33,7 +50,8 @@ class CoffeeMaker {
 
 
     }
-    class dishWasher {
+
+    class DishWasher{
         private boolean hasWorkToDo;
         public void setHasWorkToDo(boolean hasWorkToDo)
         {
