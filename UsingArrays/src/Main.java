@@ -10,6 +10,13 @@ public class Main {
     System.out.println(Arrays.toString(secondArray));
     Arrays.fill(secondArray, 5);
     System.out.println(Arrays.toString(secondArray));
+    int [] thirdArray = getRandomArray(10);
+    System.out.println(Arrays.toString(thirdArray));
+    int [] fourthArray = Arrays.copyOf(thirdArray, thirdArray.length);
+    System.out.println(Arrays.toString(fourthArray));
+    Arrays.sort(fourthArray);
+    System.out.println(Arrays.toString(fourthArray));
+        System.out.println(Arrays.toString(thirdArray));
     }
 
     public static int[] getRandomArray(int len)
