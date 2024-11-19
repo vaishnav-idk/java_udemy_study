@@ -6,6 +6,10 @@ public class Main {
     System.out.println(Arrays.toString(firstArray));
     Arrays.sort(firstArray);
     System.out.println(Arrays.toString(firstArray));
+    int[] secondArray = new int[10];
+    System.out.println(Arrays.toString(secondArray));
+    Arrays.fill(secondArray, 5);
+    System.out.println(Arrays.toString(secondArray));
     }
 
     public static int[] getRandomArray(int len)
