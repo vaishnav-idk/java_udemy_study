@@ -17,6 +17,8 @@ public class Main {
     Arrays.sort(fourthArray);
     System.out.println(Arrays.toString(fourthArray));
         System.out.println(Arrays.toString(thirdArray));
+        String[] sarray={"Hi","there"};
+        System.out.println(Arrays.toString(sarray));
     }
 
     public static int[] getRandomArray(int len)
